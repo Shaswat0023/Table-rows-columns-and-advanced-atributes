@@ -1,0 +1,132 @@
+ <!-- table, thead, tbody, tfoot, tr, td, th  -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h3>This is the concept of  normal table creation</h3>
+    <div>
+    <table border="1">
+        <thead>
+            <th>Student Name</th>
+            <th>Student Id</th>
+            <th>Gender</th>
+            <th> Age </th>
+        </thead>
+    
+    
+    <tbody>
+        <tr>
+            <td>1234</td>
+            <td>Bill</td>
+            <td>Male</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>5678</td>
+            <td>James</td>
+            <td>Male</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>9101</td>
+            <td>Rosy</td>
+            <td>Female</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>1233</td>
+            <td>Damian</td>
+            <td>Male</td>
+            <td>19</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<h3>This is the concept of the row expansion</h3>
+
+<div class="rowexpansion">
+
+    <table border="1">
+        <thead>
+            <th>Student Name</th>
+            <th>Student Id</th>
+            <th>Gender</th>
+            <th> Age </th>
+        </thead>
+    
+    
+    <tbody>
+        <tr>
+            <td>1234</td>
+            <td>Bill</td>
+            <td>Male</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>5678</td>
+            <td>James</td>
+            <td>Male</td>
+            <td rowspan="3">16</td>
+        </tr>
+        <tr>
+            <td>9101</td>
+            <td>Rosy</td>
+            <td>Female</td>
+           
+        </tr>
+        <tr>
+            <td>1233</td>
+            <td>Damian</td>
+            <td>Male</td>
+            
+        </tr>
+    </tbody>
+</table>
+
+</div>
+<h3>This is the concept of column expansion</h3>
+
+<div class="columexpansion">
+
+    <table border="1">
+        <thead>
+            <th>Student Name</th>
+            <th>Student Id</th>
+            <th>Gender</th>
+            <th> Age </th>
+        </thead>
+    
+  
+    <tbody>
+        <tr>
+            <td>1234</td>
+            <td colspan="3">Bill</td>
+            
+        </tr>
+        <tr>
+            <td>5678</td>
+            <td>James</td>
+            <td>Male</td>
+            <td rowspan="3">16</td>
+        </tr>
+        <tr>
+            <td>9101</td>
+            <td>Rosy</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>1233</td>
+            <td>Damian</td>
+            <td>Male</td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
+ </body>
+ </html>
